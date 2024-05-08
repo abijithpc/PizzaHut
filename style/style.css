@@ -1,0 +1,513 @@
+  * {
+    adding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+.header {
+    width: 100%;
+    height: 70px;
+}
+
+.nav-bar {
+    width: 100%;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+}
+
+.left-side img {
+    width: 150px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left-side {
+    width: 50%;
+    height: 50px;
+
+}
+
+.right-side {
+    width: 50%;
+    height: 50px;
+    float: right;
+
+}
+
+.right-side li {
+    display:flex ;
+    justify-content: end;
+    text-decoration: underline dotted;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.background-img {
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.background-img img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.second-header {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    transform: translate(10px,269px);
+
+    
+}
+
+.location-box {
+    width:33%;
+    height: 270px;
+    position: relative;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.inner-box {
+    width: 90%;
+    height: 250px;
+    margin-top: 13px;
+}
+
+.box-heading{
+    width: 100%;
+    display: inline-block;
+}
+
+.box-heading b {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: Sharp Sans Bold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.box-para {
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+}
+
+.box-para p {
+    font-size: 15px;
+    font-weight: 370;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family:  Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.second-para {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.second-para p {
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.box-heading2 {
+    display: flex;
+    justify-content: center;
+}
+
+.box-heading2 b {
+    font-family:Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.box-button {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.box-button button {
+    width: 100%;
+    border: none;
+    border-radius:6px ;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+
+}
+
+.order-btn:hover {
+    background-color: #055213;
+}
+
+.box-location {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.box-button a {
+    color: #0a8020;
+    text-decoration: none;
+}
+
+.third-row{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.inner-third-row {
+    height: 300px;
+    width: 70%;
+    display: flex;
+    float: right;
+    gap: 10px;
+
+}
+
+.inner-left-side {
+    width: 50%;
+}
+
+.inner-right-side {
+    width: 50%;
+
+}
+
+.inner-left-side img {
+    width: 100%;
+    height: 120%;
+}
+
+.inner-right-side img {
+    width: 100%;
+    height: 120%;
+
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+  }
+  h1:before, h1:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h1:before {
+    margin-right: 10px;
+  }
+  h1:after {
+    margin-left: 10px;
+  }
+
+  .center-line {
+    margin-top: 13%;
+  }
+
+  .second-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  .second-button button {
+    width: 70%;
+    height: 60px;
+    border-radius: 10px;
+    border:none;
+    background-color: #0a8020;
+    cursor: pointer;
+    font-size: 23px;
+    color: white;
+  }
+
+
+  .detail-btn:hover {
+    background-color: #055213;
+  }
+
+.center-pic-para {
+    width: 100%;
+    height:50px;
+    margin-top: 44px;
+    position: absolute;
+}
+
+.inner-pic-para {
+    width: 100%;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.left-side-pic-para {
+    width: 50%;
+    height: 50px;
+    display: inline-block;
+}
+
+.right-side-pic-para {
+    width: 50%;
+    height: 50px;
+    float: right;
+}
+
+.left-side-pic-para p {
+    width:97%;
+    font-size: 10.5px;
+    background-color: gray;
+    margin-left: 13px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.right-side-pic-para p {
+    width:96%;
+    font-size: 10.5px;
+    background-color: gray;
+    margin-left: 6px;
+    margin-top: 3px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    margin-top: 60px;
+}
+
+.main-footer-sec1 {
+    width: 100%;
+    height: 210px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding-left: 170px;
+    padding-right: 150px;
+
+}
+
+.footer-Heading {
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    font-family:  Sharp Sans Semibold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.footer-text {
+    font-size: 13px;
+    color: white;
+    font-family:  Sharp Sans Semibold Display No1, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.sec2 {
+    margin-bottom: 10px;
+}
+
+.sec4 {
+    margin-bottom: 29px;
+}
+
+.social-div {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-stores {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right:10%;
+    cursor: pointer;
+
+}
+
+
+.social-left img {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+
+}
+
+.social-right img{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 6px;
+    margin-left: 10px;
+
+}
+
+
+.buttons-social-acc {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.buttons-social-acc-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 140px;
+    gap: 10px;
+}
+.buttons-social-acc-left button {
+    width: 20%;
+    height: 45px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 17px;
+}
+
+.buttons-social-acc-left p {
+    font-size: 17px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+    gap: 10px;
+}
+
+.buttons-social-acc-right{
+    width: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.left-social-account img{
+    width: 25px;
+    height: 23px;
+    cursor: pointer;
+}
+
+
+.left-social-account {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 220px;
+    margin-top: 10px;
+    gap: 15px;
+}
+
+.follow-us {
+    width: 100%;
+    display: block;
+    margin-top: 16px;
+    margin-left: 255px;
+    color: white;
+    font-size: 18px;
+    font-family: Open Sans, system-ui, BlinkMacSystemFont, Helvetica Neue, Helvetica, sans-serif;
+}
+
+.main-footer-para {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-para {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+
+.footer-para p {
+    font-size: 13px;
+    width: 87%;
+    color: #78838c;
+    line-height: 20px;
+}
+
+.footer-para span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-footer-para {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #78838c;
+    font-size: 13px;
+}
+.footer-img {
+    width: 100%;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-img img {
+    width: 80px;
+    height: 80px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: white;
+}
+
+
+
+.feedback-btn {
+    cursor: pointer;
+}
+.feedback-btn:hover {
+
+    opacity: 70%;
+}
+
+.box-button button{
+    cursor: pointer;
+}
+
